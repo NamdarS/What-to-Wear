@@ -1,0 +1,104 @@
+body {
+  background-color: wheat;
+}
+
+h1 {
+  font-family: "B612", sans-serif;
+  font-size: 695%;
+  text-align: center;
+  color: rgb(0, 39, 102);
+}
+
+.text-line {
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #000000 1px;
+  border-width: 6px;
+  padding-left: 8%;
+  padding-right: 8%;
+  position: relative;
+  left: 25%;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  color: #000000;
+}
+
+h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 345%;
+  text-align: center;
+  color: rgb(7, 123, 218);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+ion-icon {
+  position: absolute;
+  top: 48%;
+  right: 18%;
+  left: 68%;
+  font-size: 250%;
+  color: rgb(112, 0, 0);
+  --ionicon-stroke-width: 10%;
+  transition: transform 0.2s;
+}
+
+ion-icon:hover {
+  transform: scale(1.5);
+}
+
+ion-icon:active {
+  color: red;
+}
+
+.searchPNG {
+  position: absolute;
+  top: 48%;
+  right: 18%;
+  left: 68%;
+  opacity: 0%;
+}
+
+.searchUnit:hover > ion-icon {
+  transform: scale(1.5);
+}
+
+.searchUnit:active > ion-icon {
+  color: red;
+}
+
+.weatherIcons {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.weatherIcons2 {
+  position: absolute;
+  top: 54%;
+  left: 78%;
+}
+
+.wIcon {
+  width: 55%;
+  height: 55%;
+}
+
+.wIcon2 {
+  width: 85%;
+  height: 85%;
+}
+
+.credits {
+  font-family: "Titillium Web", sans-serif;
+  font-size: xx-small;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
